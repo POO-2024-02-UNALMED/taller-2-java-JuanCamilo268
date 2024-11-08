@@ -33,6 +33,7 @@ class Asiento{
             }
             default{
                 System.out.println("No se puede pintar el auto de ese color")
+                break;
             }
 
         }
