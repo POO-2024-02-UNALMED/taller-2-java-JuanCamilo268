@@ -3,7 +3,7 @@ class Asiento{
     String color;
     int precio;
     int registro;
-    static void cambiarColor(String colorP){
+    void cambiarColor(String colorP){
         String colorMinus = colorP.toLowerCase();
         if (colorMinus.equals("rojo")) {
             this.color = colorMinus;
