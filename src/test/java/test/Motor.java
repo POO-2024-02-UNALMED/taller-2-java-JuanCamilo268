@@ -12,8 +12,6 @@ class Motor{
             this.tipo = tip;
         }else if (tip.equals("gasolina")){
             this.tipo = tip;
-        }else{
-            System.out.println("Ese tipo no existe");
         }
     }
 }
