@@ -6,33 +6,33 @@ class Asiento{
     static String cambiarColor(String colorP){
         String colorMinus = colorP.toLowerCase();
         switch (colorMinus){
-            case "rojo"{
+            case "rojo": {
                 this.color = colorMinus;
-                System.out.println("Su auto ahora es "+ colorMinus)
+                System.out.println("Su auto ahora es "+ colorMinus);
                 break;
             }
-            case "verde"{
+            case "verde": {
                 this.color = colorMinus;
-                System.out.println("Su auto ahora es "+ colorMinus)
+                System.out.println("Su auto ahora es "+ colorMinus);
                 break;
             }
-            case "amarillo"{
+            case "amarillo": {
                 this.color = colorMinus;
-                System.out.println("Su auto ahora es "+ colorMinus)
+                System.out.println("Su auto ahora es "+ colorMinus);
                 break;
             }
-            case "negro"{
+            case "negro": {
                 this.color = colorMinus;
-                System.out.println("Su auto ahora es "+ colorMinus)
+                System.out.println("Su auto ahora es "+ colorMinus);
                 break;
             }
-            case "blanco"{
+            case "blanco": {
                 this.color = colorMinus;
-                System.out.println("Su auto ahora es "+ colorMinus)
+                System.out.println("Su auto ahora es "+ colorMinus);
                 break;
             }
-            default{
-                System.out.println("No se puede pintar el auto de ese color")
+            default: {
+                System.out.println("No se puede pintar el auto de ese color");
                 break;
             }
 
