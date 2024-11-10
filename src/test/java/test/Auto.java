@@ -2,14 +2,18 @@ package test;
 class Auto{
     String modelo;
     int precio;
-    Asiento[] asientos = {null, null, null, null, null, null};
+    Asiento[] asientos;
     String marca;
     Motor motor = null;
     int registro;
     static String cantidadCreados;
     static int cantidadAsientos(Asiento[] asientos){
         int cantidad = 0;
-        for (Asiento asiento: asientos)
+        for (Asiento asiento: asientos){
+            if (asiento != null){
+                cantidad += 1
+            }
+        }
         return cantidad;
     }
     static void verificarIntegridad(){
