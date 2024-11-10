@@ -7,7 +7,7 @@ class Auto{
     Motor motor = null;
     int registro;
     static int cantidadCreados;
-    static int cantidadAsientos(Asiento[] asientos){
+    int cantidadAsientos(){
         int cantidad = 0;
         for (Asiento asiento: asientos){
             if (asiento != null){
