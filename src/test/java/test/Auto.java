@@ -6,7 +6,7 @@ class Auto{
     String marca;
     Motor motor = null;
     int registro;
-    static String cantidadCreados;
+    static int cantidadCreados;
     static int cantidadAsientos(Asiento[] asientos){
         int cantidad = 0;
         for (Asiento asiento: asientos){
