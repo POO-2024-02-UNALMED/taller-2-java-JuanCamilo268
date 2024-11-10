@@ -7,13 +7,13 @@ class Motor{
         this.registro = reg;
     }
     static void asignarTipo(String tipo){
-        Sring tip = tipo.toLowerCase();
-        if (tip == "electrico"){
+        String tip = tipo.toLowerCase();
+        if (tip.equals("electrico")){
             this.tipo = tip;
-        }else if (tip == "gasolina"){
+        }else if (tip.equals("gasolina")){
             this.tipo = tip;
         }else{
-            System.out.println("Ese tipo no existe")
+            System.out.println("Ese tipo no existe");
         }
     }
 }
