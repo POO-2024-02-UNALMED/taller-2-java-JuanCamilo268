@@ -17,11 +17,11 @@ class Auto{
             break;
         }
         for (Asiento asiento: asientos){
-            if auto.registro != auto.asiento.registro{
+            if (auto.registro != auto.asiento.registro){
                 System.out.println("Las piezas no son originales");
                 break;
             }else{
-                System.out.println("Auto original")
+                System.out.println("Auto original");
             }
 
         }
