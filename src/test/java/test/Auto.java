@@ -11,7 +11,7 @@ class Auto{
         int cantidad = 0;
         for (Asiento asiento: asientos){
             if (asiento != null){
-                cantidad += 1
+                cantidad += 1;
             }
         }
         return cantidad;
