@@ -11,7 +11,7 @@ class Auto{
         int cantidad = 0;
         for (Asiento asiento: asientos){
             if (asiento != null){
-                cantidad += 1
+                cantidad += 1;
             }
         }
         return cantidad;
@@ -24,7 +24,7 @@ class Auto{
             for (Asiento asiento: this.asientos) {
                 if (asiento != null) {
                     if (this.registro != asiento.registro) {
-                        verificar = "Las piezas no son originales"
+                        verificar = "Las piezas no son originales";
                         break;
                     }
                 }
